@@ -36,4 +36,4 @@ outputs:
     outputBinding:
       glob: .
 
-baseCommand: ["fastqc"]
+baseCommand: ["fastqc", "--outdir", ".", "--extract"]
